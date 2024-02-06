@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "142080488314",
+    "project_id": "easychat-27abd",
+    "storage_bucket": "easychat-27abd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142080488314:android:7024e8b49b0355d74d5cc3",
+        "android_client_info": {
+          "package_name": "com.example.connectchat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqkQYhukS8kHvJvfB7LU8R3gSebtoE8Nk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

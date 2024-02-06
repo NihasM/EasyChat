@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingVertical="20dp"
+    android:background="@drawable/roundcorner">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi There!"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:text="Please enter your name"
+            android:textSize="15dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/edtname"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingHorizontal="15dp"
+            android:layout_marginHorizontal="12dp"
+            android:background="@drawable/etdroundcorner"/>
+        <TextView
+            android:id="@+id/txterror"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#F30A0A"
+            android:visibility="gone"
+            android:text="Enter your name"
+            android:textSize="13dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="15dp"/>
+
+        <Button
+            android:id="@+id/btnconnect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:background="@drawable/etdroundcorner"
+            android:text="Connect"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/process"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginHorizontal="50dp"
+                android:background="@drawable/etdroundcorner"
+                android:visibility="gone"
+                >
+
+
+                <ProgressBar
+                    android:id="@+id/processbar"
+                    style="?android:attr/progressBarStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="20dp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview"
+
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="30dp"
+                    android:layout_gravity="center"
+                    android:text="Processing..."
+                    />
+
+                />
+
+
+
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
